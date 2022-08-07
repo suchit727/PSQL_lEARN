@@ -75,7 +75,7 @@ create table address2(id int ,
                       address_line1 varchar(50),
                      address_line2 varchar(50),
                       city varchar(50),
-                       zipcode varchar(50),
+                       zipcode int,
                      foreign key(id) references person2(id));
 
 --Inserting 5 records in address2
