@@ -10,7 +10,7 @@ public class JdbcTrail {
 		try {
 			Class.forName("org.postgresql.Driver");
 			Connection con=DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","root");
-			String sql="insert into address3 values(99999,'abc','xyz','bhenchod','madarchod',000000)";
+			String sql="insert into address3 values(99999,'abc','xyz','chf','gfvje',000000)";
 			PreparedStatement ps=con.prepareStatement(sql);
 			ps.execute();
 			System.out.println("Querry inserted Sucessfully");
